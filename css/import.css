@@ -1,0 +1,385 @@
+/* html5doctor.com Reset v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) - http://cssreset.com */
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+body {
+  margin: 0 auto;
+}
+
+[class*=randomContent] {
+  position: absolute;
+  z-index: -1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Dancing Script', cursive;
+}
+
+/***     header      ***/
+header {
+  background-image: url("/img/background/top_bg.png");
+  background-repeat: no-repeat;
+  background-position: -350px;
+  height: 984px;
+}
+header h1 {
+  padding-top: 300px;
+  margin-left: 100px;
+}
+header h1, header ul {
+  font-family: 'Dancing Script', cursive;
+  font-size: 44px;
+}
+header nav {
+  margin-left: 110px;
+  margin-top: 20px;
+}
+header nav a {
+  color: #000000;
+  margin-top: 40px;
+}
+header nav a:hover {
+  color: #ffffff;
+}
+header .tw, header .fb {
+  display: inline-block;
+  margin-top: 40px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+header .tw a {
+  width: 60px;
+  height: 51px;
+  background-image: url("/img/icon/twitterIcon.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2px;
+}
+header .fb a {
+  width: 60px;
+  height: 60px;
+  background: url("/img/icon/facebookIcon.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  background-position: center;
+  margin-left: 60px;
+}
+header .tw a:hover {
+  background-image: url("/img/icon/twIconHover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header .fb a:hover {
+  background-image: url("/img/icon/fbIconHover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/***     main      ***/
+/***      nav     ***/
+main nav {
+  width: 500px;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.43);
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+main nav .hbgnv {
+  text-indent: -9999px;
+  background: url("/img/nav/hnbrgnv.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+main nav .nvHnbg {
+  margin-top: 200px;
+  margin-left: 186px;
+}
+main nav .nvHnbg li {
+  margin-top: 80px;
+}
+main nav .nvHnbg a {
+  color: #ffffff;
+  font-size: 40px;
+}
+main nav a:hover {
+  color: #af0000;
+}
+main nav .sns li {
+  display: inline-block;
+  margin-top: 80px;
+  overflow: hidden;
+}
+main nav .tw a {
+  width: 60px;
+  height: 51px;
+  background-image: url("/img/icon/twIconHover.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  background-position: center;
+  margin-left: 156px;
+  margin-top: 1px;
+}
+main nav .fb a {
+  width: 60px;
+  height: 60px;
+  background: url("/img/icon/fbIconHover.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  background-position: center;
+  margin-left: 80px;
+}
+main nav .tw a:hover {
+  background-image: url("/img/icon/twIconHover2.png");
+  background-repeat: no-repeat;
+}
+main nav .fb a:hover {
+  background-image: url("/img/icon/fbIconHover2.png");
+  background-repeat: no-repeat;
+}
+
+/***     about    ***/
+#about {
+  background-image: url("/img/background/about_bg.png");
+  background-repeat: no-repeat;
+  height: 1500px;
+  margin-left: 12%;
+}
+#about h2 {
+  font-size: 38px;
+  display: inline-block;
+  margin-left: 39%;
+  margin-top: 200px;
+}
+#about dl {
+  margin-left: 30%;
+  margin-top: 50px;
+}
+#about dt {
+  display: inline-block;
+  margin-top: 80px;
+}
+#about dd {
+  margin-top: 20px;
+}
+
+/***     work     ***/
+#work {
+  height: 1600px;
+  overflow: hidden;
+}
+#work h2 {
+  display: inline-block;
+  margin-left: 78%;
+  font-size: 44px;
+}
+
+.prsnl {
+  background-image: url("/img/background/work_bg.png");
+  background-repeat: no-repeat;
+  margin-left: 40%;
+  width: 1042px;
+  height: 715px;
+  overflow: hidden;
+}
+.prsnl li {
+  display: inline-block;
+}
+.prsnl .contsTg {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 30%;
+}
+.prsnl .contsTg li {
+  width: 100px;
+  height: 40px;
+  background-color: #c3e2fe;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.prsnl .contsTg a {
+  font-size: 24px;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+}
+.prsnl #wbConts,
+.prsnl #grphConts,
+.prsnl #anlgConts {
+  margin-left: 24%;
+  /***display: none ;***/
+}
+.prsnl #wbConts li,
+.prsnl #grphConts li,
+.prsnl #anlgConts li {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.prsnl #wbConts a:hover,
+.prsnl #grphConts a:hover,
+.prsnl #anlgConts a:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: block;
+  transition: 0.3s;
+}
+
+#grphConts {
+  margin-top: -124px;
+  display: none;
+}
+
+#anlgConts {
+  margin-top: -246px;
+  display: none;
+}
+
+.grp {
+  background-image: url("/img/background/group_bg.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 829px;
+  height: 689px;
+  margin-top: -30%;
+}
+.grp h3 {
+  font-size: 40px;
+  margin-left: 44%;
+  margin-top: 80px;
+  font-family: 'Dancing Script', cursive;
+}
+.grp li {
+  display: inline-block;
+  margin-left: 38%;
+  margin-top: 100px;
+}
+
+/***     contact     ***/
+#contact {
+  background-image: url("/img/background/contact_bg.png");
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 1300px;
+  margin-left: 20%;
+}
+#contact h2 {
+  text-align: center;
+  display: inline-block;
+  margin-top: 200px;
+  font-size: 48px;
+  margin-left: 40%;
+  color: #ffffff;
+}
+#contact p {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 120px;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #ffb100;
+  height: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+footer p {
+  margin-top: 40px;
+}

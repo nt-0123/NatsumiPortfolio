@@ -5,6 +5,7 @@
 @import "_extension_import.scss";
 body {
 	margin: 0 auto ;
+
 }
 
 
@@ -33,18 +34,18 @@ header {
 	background-repeat: no-repeat ;
 	background-position: -350px ;
 	height: 984px ;
-	
+
 	h1 {
 		padding-top: 300px ;
 		margin-left: 100px ;
-		
+
 	}
-	
+
 	h1,ul {
 		font-family: 'Dancing Script', cursive;
 		font-size: 44px ;
 	}
-	
+
 	nav {
 		margin-left: 110px ;
 		margin-top: 20px ;
@@ -53,18 +54,18 @@ header {
 		color: #000000 ;
 		margin-top: 40px ;
 	}
-	
+
 	nav a:hover {
 		color: #ffffff ;
 	}
-	
+
 	.tw,.fb {
 		display: inline-block ;
 		margin-top: 40px ;
 		overflow: hidden ;
 		margin-left: 50px ;
 	}
-	
+
 	.tw a {
 		width: 60px ;
 		height: 51px ;
@@ -75,7 +76,7 @@ header {
 		background-position: center ;
 		margin-top: 2px ;
 	}
-	
+
 	.fb a {
 		width: 60px ;
 		height: 60px;
@@ -86,13 +87,13 @@ header {
 		background-position: center ;
 		margin-left: 60px ;
 	}
-	
+
 	.tw a:hover {
 		background-image:  image-url("icon/twIconHover.png") ;
 		background-repeat: no-repeat ;
 		background-position: center ;
 	}
-	
+
 	.fb a:hover {
 		background-image:  image-url("icon/fbIconHover.png") ;
 		background-repeat: no-repeat ;
@@ -101,6 +102,12 @@ header {
 }
 
 /***     main      ***/
+main {
+	position: relative ;
+	min-width: 1200px ;
+	overflow: hidden ;
+	height: 5000px ;
+}
 
 /***      nav     ***/
 
@@ -110,7 +117,7 @@ main nav {
 	background-color: rgba(0, 0, 0, 0.43) ;
 	font-size: 40px ;
 	font-family: 'Dancing Script', cursive;
-	
+
 	.hbgnv {
 		text-indent: -9999px ;
 		background:  image-url("nav/hnbrgnv.png") ;
@@ -120,32 +127,32 @@ main nav {
 		height: 100px ;
 		display: inline-block ;
 	}
-	
+
 	.nvHnbg {
 		margin-top: 200px ;
 		margin-left: 186px ;
 	}
-	
+
 	.nvHnbg li {
 		margin-top: 80px ;
 	}
-	
-	
+
+
 	.nvHnbg a {
 		color: #ffffff ;
 		font-size: 40px ;
 	}
-	
+
 	a:hover {
 		color: #af0000 ;
 	}
-	
+
 	.sns li {
 		display: inline-block ;
 		margin-top: 80px ;
 		overflow: hidden ;
 	}
-	
+
 	.tw a{
 		width: 60px ;
 		height: 51px ;
@@ -185,26 +192,29 @@ main nav {
 #about {
 	background-image:  image-url("background/about_bg.png") ;
 	background-repeat: no-repeat ;
+	position: absolute ;
+	left: 50% ;
+	width: 	1000px ;
+	margin-left: -500px ;
 	height: 1500px ;
-	margin-left: 12% ;
-	
+
 	h2 {
 		font-size: 38px ;
 		display: inline-block ;
 		margin-left: 39% ;
 		margin-top: 200px ;
 	}
-	
+
 	dl {
 		margin-left: 30% ;
 		margin-top: 50px ;
 	}
-	
+
 	dt {
 		display: inline-block ;
 		margin-top: 80px ;
 	}
-	
+
 	dd {
 		margin-top: 20px ;
 	}
@@ -213,8 +223,16 @@ main nav {
 /***     work     ***/
 
 #work {
+	width: 1730px ;
 	height: 1600px ;
 	overflow: hidden ;
+	position: absolute;
+	margin: 0;
+
+	top: 3000px;
+	left: 50%;
+	margin-left: -865px;
+
 	h2 {
 		display: inline-block ;
 		margin-left: 78% ;
@@ -233,7 +251,7 @@ main nav {
 	li {
 		display: inline-block ;
 	}
-	
+
 	.contsTg {
 		display: inline-block ;
 		margin-top: 150px;
@@ -265,7 +283,7 @@ main nav {
 			margin-left: 10px ;
 			margin-right: 5px ;
 		}
-		
+
 		a:hover {
 			width: 100px ;
 			height: 100px ;
@@ -275,7 +293,7 @@ main nav {
 			transition: 0.3s ;
 		}
 	}
-	
+
 }
 
 #grphConts {
@@ -295,14 +313,14 @@ main nav {
 	width: 829px ;
 	height: 689px ;
 	margin-top: -30%  ;
-	
+
 	h3 {
 		font-size: 40px ;
 		margin-left: 44% ;
 		margin-top: 80px ;
 		font-family: 'Dancing Script', cursive;
 	}
-	
+
 	li {
 		display: inline-block ;
 		margin-left: 38% ;
@@ -315,9 +333,12 @@ main nav {
 #contact {
 	background-image:  image-url("background/contact_bg.png") ;
 	background-repeat: no-repeat ;
+	position: absolute ;
+	left: 50% ;
+	top: 4000px;
+	margin-left: -400px ;
 	width: 800px ;
 	height: 1300px ;
-	margin-left: 20% ;
 	h2 {
 		text-align: center ;
 		display: inline-block ;
@@ -326,7 +347,7 @@ main nav {
 		margin-left: 40% ;
 		color: #ffffff ;
 	}
-	
+
 	p {
 		font-size: 48px ;
 		text-align: center ;

@@ -164,6 +164,13 @@ header .fb a:hover {
 }
 
 /***     main      ***/
+main {
+  position: relative;
+  min-width: 1200px;
+  overflow: hidden;
+  height: 5000px;
+}
+
 /***      nav     ***/
 main nav {
   width: 500px;
@@ -234,8 +241,11 @@ main nav .fb a:hover {
 #about {
   background-image: url('../img/background/about_bg.png?1436501193');
   background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  width: 1000px;
+  margin-left: -500px;
   height: 1500px;
-  margin-left: 12%;
 }
 #about h2 {
   font-size: 38px;
@@ -257,8 +267,14 @@ main nav .fb a:hover {
 
 /***     work     ***/
 #work {
+  width: 1730px;
   height: 1600px;
   overflow: hidden;
+  position: absolute;
+  margin: 0;
+  top: 3000px;
+  left: 50%;
+  margin-left: -865px;
 }
 #work h2 {
   display: inline-block;
@@ -355,9 +371,12 @@ main nav .fb a:hover {
 #contact {
   background-image: url('../img/background/contact_bg.png?1436501193');
   background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 4000px;
+  margin-left: -400px;
   width: 800px;
   height: 1300px;
-  margin-left: 20%;
 }
 #contact h2 {
   text-align: center;

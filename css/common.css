@@ -23,7 +23,7 @@ h2 {
 
 /***     header      ***/
 header {
-  background-image: url("/img/background/top_bg.png");
+  background-image: url('../img/background/top_bg.png?1436501193');
   background-repeat: no-repeat;
   background-position: -350px;
   height: 984px;
@@ -56,7 +56,7 @@ header .tw, header .fb {
 header .tw a {
   width: 60px;
   height: 51px;
-  background-image: url("/img/icon/twitterIcon.png");
+  background-image: url('../img/icon/twitterIcon.png?1436501193');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -66,7 +66,7 @@ header .tw a {
 header .fb a {
   width: 60px;
   height: 60px;
-  background: url("/img/icon/facebookIcon.png");
+  background: url('../img/icon/facebookIcon.png?1436501193');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -74,12 +74,12 @@ header .fb a {
   margin-left: 60px;
 }
 header .tw a:hover {
-  background-image: url("/img/icon/twIconHover.png");
+  background-image: url('../img/icon/twIconHover.png?1436501193');
   background-repeat: no-repeat;
   background-position: center;
 }
 header .fb a:hover {
-  background-image: url("/img/icon/fbIconHover.png");
+  background-image: url('../img/icon/fbIconHover.png?1436501193');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -95,7 +95,7 @@ main nav {
 }
 main nav .hbgnv {
   text-indent: -9999px;
-  background: url("/img/nav/hnbrgnv.png");
+  background: url('../img/nav/hnbrgnv.png?1436501193');
   background-position: center;
   background-repeat: no-repeat;
   width: 100px;
@@ -124,7 +124,7 @@ main nav .sns li {
 main nav .tw a {
   width: 60px;
   height: 51px;
-  background-image: url("/img/icon/twIconHover.png");
+  background-image: url('../img/icon/twIconHover.png?1436501193');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -135,7 +135,7 @@ main nav .tw a {
 main nav .fb a {
   width: 60px;
   height: 60px;
-  background: url("/img/icon/fbIconHover.png");
+  background: url('../img/icon/fbIconHover.png?1436501193');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -143,17 +143,17 @@ main nav .fb a {
   margin-left: 80px;
 }
 main nav .tw a:hover {
-  background-image: url("/img/icon/twIconHover2.png");
+  background-image: url('../img/icon/twIconHover2.png?1436501193');
   background-repeat: no-repeat;
 }
 main nav .fb a:hover {
-  background-image: url("/img/icon/fbIconHover2.png");
+  background-image: url('../img/icon/fbIconHover2.png?1436501193');
   background-repeat: no-repeat;
 }
 
 /***     about    ***/
 #about {
-  background-image: url("/img/background/about_bg.png");
+  background-image: url('../img/background/about_bg.png?1436501193');
   background-repeat: no-repeat;
   height: 1500px;
   margin-left: 12%;
@@ -188,7 +188,7 @@ main nav .fb a:hover {
 }
 
 .prsnl {
-  background-image: url("/img/background/work_bg.png");
+  background-image: url('../img/background/work_bg.png?1436501193');
   background-repeat: no-repeat;
   margin-left: 40%;
   width: 1042px;
@@ -253,7 +253,7 @@ main nav .fb a:hover {
 }
 
 .grp {
-  background-image: url("/img/background/group_bg.png");
+  background-image: url('../img/background/group_bg.png?1436501193');
   background-repeat: no-repeat;
   overflow: hidden;
   width: 829px;
@@ -274,7 +274,7 @@ main nav .fb a:hover {
 
 /***     contact     ***/
 #contact {
-  background-image: url("/img/background/contact_bg.png");
+  background-image: url('../img/background/contact_bg.png?1436501193');
   background-repeat: no-repeat;
   width: 800px;
   height: 1300px;

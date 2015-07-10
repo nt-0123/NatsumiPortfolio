@@ -82,6 +82,13 @@ body {
   margin: 0 auto;
 }
 
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 [class*=randomContent] {
   position: absolute;
   z-index: -1;
@@ -168,16 +175,17 @@ main {
   position: relative;
   min-width: 1200px;
   overflow: hidden;
-  height: 5000px;
+  height: 7000px;
+  background-image: url('../img/background/parllax_footer.png?1436488351');
+  background-repeat: repeat-x;
+  background-position: center bottom;
 }
 
 /***      nav     ***/
 main nav {
-  width: 500px;
-  height: 1000px;
-  background-color: rgba(0, 0, 0, 0.43);
-  font-size: 40px;
-  font-family: 'Dancing Script', cursive;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 main nav .hbgnv {
   text-indent: -9999px;
@@ -187,6 +195,20 @@ main nav .hbgnv {
   width: 100px;
   height: 100px;
   display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+main nav .nav {
+  width: 500px;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.43);
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  display: none;
+}
+main nav .nav.on {
+  display: block;
 }
 main nav .nvHnbg {
   margin-top: 200px;
@@ -242,6 +264,7 @@ main nav .fb a:hover {
   background-image: url('../img/background/about_bg.png?1435286858');
   background-repeat: no-repeat;
   position: absolute;
+  top: 1000px;
   left: 50%;
   width: 1000px;
   margin-left: -500px;
@@ -252,10 +275,12 @@ main nav .fb a:hover {
   display: inline-block;
   margin-left: 39%;
   margin-top: 200px;
+  color: #ffffff;
 }
 #about dl {
   margin-left: 30%;
   margin-top: 50px;
+  color: #ffffff;
 }
 #about dt {
   display: inline-block;
@@ -278,8 +303,15 @@ main nav .fb a:hover {
 }
 #work h2 {
   display: inline-block;
-  margin-left: 30%;
+  margin-left: 40%;
+  margin-bottom: -10%;
   font-size: 44px;
+  background-image: url('../img/background/work2_bg.png?1436503756');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .prsnl {
@@ -291,37 +323,49 @@ main nav .fb a:hover {
   overflow: hidden;
 }
 .prsnl h3 {
-  margin-left: 78%;
+  margin-left: 45%;
   font-size: 44px;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 10%;
 }
 .prsnl li {
   display: inline-block;
 }
 .prsnl .contsTg {
   display: inline-block;
-  margin-top: 150px;
+  margin-top: 5%;
   margin-left: 30%;
 }
 .prsnl .contsTg li {
   width: 100px;
-  height: 40px;
+  height: 27px;
   background-color: #c3e2fe;
   text-align: center;
   border-radius: 5px;
   margin-left: 10px;
   margin-right: 10px;
+  overflow: hidden;
 }
-.prsnl .contsTg a {
+.prsnl .contsTg li {
   font-size: 24px;
   color: #000000;
   display: inline-block;
   text-align: center;
+  padding-top: 10px;
+}
+.prsnl .contsTg li.on {
+  background-color: #73a5f5;
 }
 .prsnl #wbConts,
 .prsnl #grphConts,
 .prsnl #anlgConts {
   margin-left: 24%;
   display: none;
+}
+.prsnl #wbConts.on,
+.prsnl #grphConts.on,
+.prsnl #anlgConts.on {
+  display: block;
 }
 .prsnl #wbConts li,
 .prsnl #grphConts li,
@@ -339,14 +383,6 @@ main nav .fb a:hover {
 .prsnl #grphConts a:hover,
 .prsnl #anlgConts a:hover {
   opacity: 1;
-}
-
-#grphConts {
-  margin-top: -124px;
-}
-
-#anlgConts {
-  margin-top: -246px;
 }
 
 .grp {
@@ -381,7 +417,7 @@ main nav .fb a:hover {
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;
-  top: 4000px;
+  top: 4500px;
   margin-left: -400px;
   width: 800px;
   height: 1300px;
@@ -403,6 +439,7 @@ main nav .fb a:hover {
 
 footer {
   background-color: #ffb100;
+  top: 8000px;
   height: 80px;
   text-align: center;
   overflow: hidden;

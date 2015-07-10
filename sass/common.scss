@@ -235,7 +235,7 @@ main nav {
 
 	h2 {
 		display: inline-block ;
-		margin-left: 78% ;
+		margin-left: 30% ;
 		font-size: 44px ;
 	}
 }
@@ -247,6 +247,11 @@ main nav {
 	width: 1042px ;
 	height: 715px ;
 	overflow: hidden;
+	
+	h3 {
+		margin-left: 78% ;
+		font-size: 44px ;
+	}
 
 	li {
 		display: inline-block ;
@@ -277,20 +282,18 @@ main nav {
 	#grphConts,
 	#anlgConts {
 		margin-left: 24% ;
-		/***display: none ;***/
+		display: none ;
 		li {
 			margin-top: 20px ;
 			margin-left: 10px ;
 			margin-right: 5px ;
 		}
-
+		
+		a {
+			opacity: 0.8 ;
+		}
 		a:hover {
-			width: 100px ;
-			height: 100px ;
-			background-color: rgba(0, 0, 0, 0.5) ;
-			z-index: 2 ;
-			display: block ;
-			transition: 0.3s ;
+			opacity: 1 ;
 		}
 	}
 
@@ -298,12 +301,10 @@ main nav {
 
 #grphConts {
 	margin-top: -124px ;
-	display: none ;
 }
 
 #anlgConts {
 	margin-top: -246px ;
-	display: none ;
 }
 
 .grp {
@@ -325,6 +326,14 @@ main nav {
 		display: inline-block ;
 		margin-left: 38% ;
 		margin-top: 100px ;
+	}
+	
+	a {
+		opacity: 0.8 ;
+	}
+
+	a:hover {
+		opacity: 1 ;
 	}
 }
 

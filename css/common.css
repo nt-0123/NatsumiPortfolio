@@ -23,7 +23,7 @@ h2 {
 
 /***     header      ***/
 header {
-  background-image: url('../img/background/top_bg.png?1436501193');
+  background-image: url('../img/background/top_bg.png?1435287105');
   background-repeat: no-repeat;
   background-position: -350px;
   height: 984px;
@@ -56,7 +56,7 @@ header .tw, header .fb {
 header .tw a {
   width: 60px;
   height: 51px;
-  background-image: url('../img/icon/twitterIcon.png?1436501193');
+  background-image: url('../img/icon/twitterIcon.png?1435884849');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -66,7 +66,7 @@ header .tw a {
 header .fb a {
   width: 60px;
   height: 60px;
-  background: url('../img/icon/facebookIcon.png?1436501193');
+  background: url('../img/icon/facebookIcon.png?1435885093');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -74,12 +74,12 @@ header .fb a {
   margin-left: 60px;
 }
 header .tw a:hover {
-  background-image: url('../img/icon/twIconHover.png?1436501193');
+  background-image: url('../img/icon/twIconHover.png?1435884885');
   background-repeat: no-repeat;
   background-position: center;
 }
 header .fb a:hover {
-  background-image: url('../img/icon/fbIconHover.png?1436501193');
+  background-image: url('../img/icon/fbIconHover.png?1435885083');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -102,7 +102,7 @@ main nav {
 }
 main nav .hbgnv {
   text-indent: -9999px;
-  background: url('../img/nav/hnbrgnv.png?1436501193');
+  background: url('../img/nav/hnbrgnv.png?1435897441');
   background-position: center;
   background-repeat: no-repeat;
   width: 100px;
@@ -131,7 +131,7 @@ main nav .sns li {
 main nav .tw a {
   width: 60px;
   height: 51px;
-  background-image: url('../img/icon/twIconHover.png?1436501193');
+  background-image: url('../img/icon/twIconHover.png?1435884885');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -142,7 +142,7 @@ main nav .tw a {
 main nav .fb a {
   width: 60px;
   height: 60px;
-  background: url('../img/icon/fbIconHover.png?1436501193');
+  background: url('../img/icon/fbIconHover.png?1435885083');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
@@ -150,17 +150,17 @@ main nav .fb a {
   margin-left: 80px;
 }
 main nav .tw a:hover {
-  background-image: url('../img/icon/twIconHover2.png?1436501193');
+  background-image: url('../img/icon/twIconHover2.png?1435885017');
   background-repeat: no-repeat;
 }
 main nav .fb a:hover {
-  background-image: url('../img/icon/fbIconHover2.png?1436501193');
+  background-image: url('../img/icon/fbIconHover2.png?1435885062');
   background-repeat: no-repeat;
 }
 
 /***     about    ***/
 #about {
-  background-image: url('../img/background/about_bg.png?1436501193');
+  background-image: url('../img/background/about_bg.png?1435286858');
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;
@@ -199,17 +199,21 @@ main nav .fb a:hover {
 }
 #work h2 {
   display: inline-block;
-  margin-left: 78%;
+  margin-left: 30%;
   font-size: 44px;
 }
 
 .prsnl {
-  background-image: url('../img/background/work_bg.png?1436501193');
+  background-image: url('../img/background/work_bg.png?1435292690');
   background-repeat: no-repeat;
   margin-left: 40%;
   width: 1042px;
   height: 715px;
   overflow: hidden;
+}
+.prsnl h3 {
+  margin-left: 78%;
+  font-size: 44px;
 }
 .prsnl li {
   display: inline-block;
@@ -238,7 +242,7 @@ main nav .fb a:hover {
 .prsnl #grphConts,
 .prsnl #anlgConts {
   margin-left: 24%;
-  /***display: none ;***/
+  display: none;
 }
 .prsnl #wbConts li,
 .prsnl #grphConts li,
@@ -247,29 +251,27 @@ main nav .fb a:hover {
   margin-left: 10px;
   margin-right: 5px;
 }
+.prsnl #wbConts a,
+.prsnl #grphConts a,
+.prsnl #anlgConts a {
+  opacity: 0.8;
+}
 .prsnl #wbConts a:hover,
 .prsnl #grphConts a:hover,
 .prsnl #anlgConts a:hover {
-  width: 100px;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
-  display: block;
-  transition: 0.3s;
+  opacity: 1;
 }
 
 #grphConts {
   margin-top: -124px;
-  display: none;
 }
 
 #anlgConts {
   margin-top: -246px;
-  display: none;
 }
 
 .grp {
-  background-image: url('../img/background/group_bg.png?1436501193');
+  background-image: url('../img/background/group_bg.png?1435292537');
   background-repeat: no-repeat;
   overflow: hidden;
   width: 829px;
@@ -287,10 +289,16 @@ main nav .fb a:hover {
   margin-left: 38%;
   margin-top: 100px;
 }
+.grp a {
+  opacity: 0.8;
+}
+.grp a:hover {
+  opacity: 1;
+}
 
 /***     contact     ***/
 #contact {
-  background-image: url('../img/background/contact_bg.png?1436501193');
+  background-image: url('../img/background/contact_bg.png?1435292759');
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;

@@ -139,18 +139,19 @@ main nav {
 
 	.nav {
 		width: 500px ;
-		height: 1000px ;
+		height: 800px ;
 		background-color: rgba(0, 0, 0, 0.43) ;
 		font-size: 40px ;
 		font-family: 'Dancing Script', cursive;
 		display: none ;
+		top: 0 ;
 		&.on {
 			display: block ;
 		}
 	}
 	
 	.nvHnbg {
-		margin-top: 200px ;
+		padding-top: 12% ;
 		margin-left: 186px ;
 	}
 

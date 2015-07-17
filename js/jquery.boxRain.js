@@ -132,7 +132,7 @@ function boxDrow() {
 function windowInfo() {
 	var dstr = directionStr.charAt(0).toUpperCase() + directionStr.substring(1),
 		scrollNum = $(window)['scroll' + dstr](),
-		windowWidth = document.documentElement.clientWidth,
+		windowWidth = document.body.clientWidth,
 		windowHeight = document.documentElement.clientHeight;
 
 	return {

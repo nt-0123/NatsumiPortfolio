@@ -54,67 +54,11 @@ h2 {
 
 		h1 {
 			padding-top: 300px ;
-			margin-left: 100px ;
-		}
-
-		h1,ul {
+			margin-left: 80px ;
 			font-family: 'Dancing Script', cursive;
-			font-size: 44px ;
+			font-size: 70px ;
 		}
 
-		nav {
-			margin-left: 110px ;
-			margin-top: 20px ;
-		}
-		nav a {
-			color: #000000 ;
-			margin-top: 40px ;
-		}
-
-		nav a:hover {
-			color: #ffffff ;
-		}
-
-		.tw,.fb {
-			display: inline-block ;
-			margin-top: 40px ;
-			overflow: hidden ;
-			margin-left: 50px ;
-		}
-
-		.tw a {
-			width: 60px ;
-			height: 51px ;
-			background-image: image-url("icon/twitterIcon.png") ;
-			background-repeat: no-repeat ;
-			text-indent: -9999px ;
-			display: inline-block ;
-			background-position: center ;
-			margin-top: 2px ;
-		}
-
-		.fb a {
-			width: 60px ;
-			height: 60px;
-			background:  image-url("icon/facebookIcon.png") ;
-			background-repeat: no-repeat ;
-			text-indent: -9999px ;
-			display: inline-block ;
-			background-position: center ;
-			margin-left: 60px ;
-		}
-
-		.tw a:hover {
-			background-image:  image-url("icon/twIconHover.png") ;
-			background-repeat: no-repeat ;
-			background-position: center ;
-		}
-
-		.fb a:hover {
-			background-image:  image-url("icon/fbIconHover.png") ;
-			background-repeat: no-repeat ;
-			background-position: center ;
-		}
 	}
 
 	/***     main      ***/

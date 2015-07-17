@@ -28,39 +28,48 @@ h2 {
   font-family: 'Dancing Script', cursive;
 }
 
-/***     header      ***/
-header {
+.index {
+  min-width: 1200px;
+  /***     header      ***/
+  /***     main      ***/
+  /***      nav     ***/
+  /***     about    ***/
+  /***     work     ***/
+  /***     contact     ***/
+  /***      footer       ***/
+}
+.index header {
   background-image: url('../img/background/top_bg.png?1435287105');
   background-repeat: no-repeat;
   background-position: -350px;
   height: 984px;
 }
-header h1 {
+.index header h1 {
   padding-top: 300px;
   margin-left: 100px;
 }
-header h1, header ul {
+.index header h1, .index header ul {
   font-family: 'Dancing Script', cursive;
   font-size: 44px;
 }
-header nav {
+.index header nav {
   margin-left: 110px;
   margin-top: 20px;
 }
-header nav a {
+.index header nav a {
   color: #000000;
   margin-top: 40px;
 }
-header nav a:hover {
+.index header nav a:hover {
   color: #ffffff;
 }
-header .tw, header .fb {
+.index header .tw, .index header .fb {
   display: inline-block;
   margin-top: 40px;
   overflow: hidden;
   margin-left: 50px;
 }
-header .tw a {
+.index header .tw a {
   width: 60px;
   height: 51px;
   background-image: url('../img/icon/twitterIcon.png?1435884849');
@@ -70,7 +79,7 @@ header .tw a {
   background-position: center;
   margin-top: 2px;
 }
-header .fb a {
+.index header .fb a {
   width: 60px;
   height: 60px;
   background: url('../img/icon/facebookIcon.png?1435885093');
@@ -80,19 +89,17 @@ header .fb a {
   background-position: center;
   margin-left: 60px;
 }
-header .tw a:hover {
+.index header .tw a:hover {
   background-image: url('../img/icon/twIconHover.png?1435884885');
   background-repeat: no-repeat;
   background-position: center;
 }
-header .fb a:hover {
+.index header .fb a:hover {
   background-image: url('../img/icon/fbIconHover.png?1435885083');
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/***     main      ***/
-main {
+.index main {
   position: relative;
   min-width: 1200px;
   overflow: hidden;
@@ -101,14 +108,12 @@ main {
   background-repeat: repeat-x;
   background-position: center bottom;
 }
-
-/***      nav     ***/
-main nav {
+.index main nav {
   position: fixed;
   top: 0;
   left: 0;
 }
-main nav .hbgnv {
+.index main nav .hbgnv {
   text-indent: -9999px;
   background: url('../img/nav/hnbrgnv.png?1435897441');
   background-position: center;
@@ -120,7 +125,7 @@ main nav .hbgnv {
   margin-left: 10px;
   position: absolute;
 }
-main nav .nav {
+.index main nav .nav {
   width: 500px;
   height: 800px;
   background-color: rgba(0, 0, 0, 0.43);
@@ -129,29 +134,29 @@ main nav .nav {
   display: none;
   top: 0;
 }
-main nav .nav.on {
+.index main nav .nav.on {
   display: block;
 }
-main nav .nvHnbg {
+.index main nav .nvHnbg {
   padding-top: 12%;
   margin-left: 186px;
 }
-main nav .nvHnbg li {
+.index main nav .nvHnbg li {
   margin-top: 80px;
 }
-main nav .nvHnbg a {
+.index main nav .nvHnbg a {
   color: #ffffff;
   font-size: 40px;
 }
-main nav a:hover {
+.index main nav a:hover {
   color: #af0000;
 }
-main nav .sns li {
+.index main nav .sns li {
   display: inline-block;
   margin-top: 80px;
   overflow: hidden;
 }
-main nav .tw a {
+.index main nav .tw a {
   width: 60px;
   height: 51px;
   background-image: url('../img/icon/twIconHover.png?1435884885');
@@ -162,7 +167,7 @@ main nav .tw a {
   margin-left: 156px;
   margin-top: 1px;
 }
-main nav .fb a {
+.index main nav .fb a {
   width: 60px;
   height: 60px;
   background: url('../img/icon/fbIconHover.png?1435885083');
@@ -172,17 +177,15 @@ main nav .fb a {
   background-position: center;
   margin-left: 80px;
 }
-main nav .tw a:hover {
+.index main nav .tw a:hover {
   background-image: url('../img/icon/twIconHover2.png?1435885017');
   background-repeat: no-repeat;
 }
-main nav .fb a:hover {
+.index main nav .fb a:hover {
   background-image: url('../img/icon/fbIconHover2.png?1435885062');
   background-repeat: no-repeat;
 }
-
-/***     about    ***/
-#about {
+.index #about {
   background-image: url('../img/background/about_bg.png?1435286858');
   background-repeat: no-repeat;
   position: absolute;
@@ -192,28 +195,26 @@ main nav .fb a:hover {
   margin-left: -500px;
   height: 1500px;
 }
-#about h2 {
+.index #about h2 {
   font-size: 38px;
   display: inline-block;
   margin-left: 39%;
   margin-top: 200px;
   color: #ffffff;
 }
-#about dl {
+.index #about dl {
   margin-left: 30%;
   margin-top: 50px;
   color: #ffffff;
 }
-#about dt {
+.index #about dt {
   display: inline-block;
   margin-top: 80px;
 }
-#about dd {
+.index #about dd {
   margin-top: 20px;
 }
-
-/***     work     ***/
-#work {
+.index #work {
   width: 1730px;
   height: 1600px;
   overflow: hidden;
@@ -223,7 +224,7 @@ main nav .fb a:hover {
   left: 50%;
   margin-left: -865px;
 }
-#work h2 {
+.index #work h2 {
   display: inline-block;
   margin-left: 40%;
   margin-bottom: -10%;
@@ -235,8 +236,7 @@ main nav .fb a:hover {
   text-align: center;
   padding-top: 80px;
 }
-
-.prsnl {
+.index .prsnl {
   background-image: url('../img/background/work_bg.png?1435292690');
   background-repeat: no-repeat;
   margin-left: 40%;
@@ -244,21 +244,21 @@ main nav .fb a:hover {
   height: 715px;
   overflow: hidden;
 }
-.prsnl h3 {
+.index .prsnl h3 {
   margin-left: 45%;
   font-size: 44px;
   font-family: 'Dancing Script', cursive;
   padding-top: 10%;
 }
-.prsnl li {
+.index .prsnl li {
   display: inline-block;
 }
-.prsnl .contsTg {
+.index .prsnl .contsTg {
   display: inline-block;
   margin-top: 5%;
   margin-left: 30%;
 }
-.prsnl .contsTg li {
+.index .prsnl .contsTg li {
   width: 100px;
   height: 27px;
   background-color: #c3e2fe;
@@ -268,46 +268,45 @@ main nav .fb a:hover {
   margin-right: 10px;
   overflow: hidden;
 }
-.prsnl .contsTg li {
+.index .prsnl .contsTg li {
   font-size: 24px;
   color: #000000;
   display: inline-block;
   text-align: center;
   padding-top: 10px;
 }
-.prsnl .contsTg li.on {
+.index .prsnl .contsTg li.on {
   background-color: #73a5f5;
 }
-.prsnl #wbConts,
-.prsnl #grphConts,
-.prsnl #anlgConts {
+.index .prsnl #wbConts,
+.index .prsnl #grphConts,
+.index .prsnl #anlgConts {
   margin-left: 24%;
   display: none;
 }
-.prsnl #wbConts.on,
-.prsnl #grphConts.on,
-.prsnl #anlgConts.on {
+.index .prsnl #wbConts.on,
+.index .prsnl #grphConts.on,
+.index .prsnl #anlgConts.on {
   display: block;
 }
-.prsnl #wbConts li,
-.prsnl #grphConts li,
-.prsnl #anlgConts li {
+.index .prsnl #wbConts li,
+.index .prsnl #grphConts li,
+.index .prsnl #anlgConts li {
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 5px;
 }
-.prsnl #wbConts a,
-.prsnl #grphConts a,
-.prsnl #anlgConts a {
+.index .prsnl #wbConts a,
+.index .prsnl #grphConts a,
+.index .prsnl #anlgConts a {
   opacity: 0.8;
 }
-.prsnl #wbConts a:hover,
-.prsnl #grphConts a:hover,
-.prsnl #anlgConts a:hover {
+.index .prsnl #wbConts a:hover,
+.index .prsnl #grphConts a:hover,
+.index .prsnl #anlgConts a:hover {
   opacity: 1;
 }
-
-.grp {
+.index .grp {
   background-image: url('../img/background/group_bg.png?1435292537');
   background-repeat: no-repeat;
   overflow: hidden;
@@ -315,26 +314,24 @@ main nav .fb a:hover {
   height: 689px;
   margin-top: -30%;
 }
-.grp h3 {
+.index .grp h3 {
   font-size: 40px;
   margin-left: 44%;
   margin-top: 80px;
   font-family: 'Dancing Script', cursive;
 }
-.grp li {
+.index .grp li {
   display: inline-block;
   margin-left: 38%;
   margin-top: 100px;
 }
-.grp a {
+.index .grp a {
   opacity: 0.8;
 }
-.grp a:hover {
+.index .grp a:hover {
   opacity: 1;
 }
-
-/***     contact     ***/
-#contact {
+.index #contact {
   background-image: url('../img/background/contact_bg.png?1435292759');
   background-repeat: no-repeat;
   position: absolute;
@@ -344,7 +341,7 @@ main nav .fb a:hover {
   width: 800px;
   height: 1300px;
 }
-#contact h2 {
+.index #contact h2 {
   text-align: center;
   display: inline-block;
   margin-top: 200px;
@@ -352,27 +349,28 @@ main nav .fb a:hover {
   margin-left: 40%;
   color: #ffffff;
 }
-#contact p {
+.index #contact p {
   font-size: 48px;
   text-align: center;
   margin-top: 120px;
   color: #ffffff;
 }
-
-/***      footer       ***/
-footer {
+.index footer {
   background-color: #ffb100;
-  top: 8000px;
+  min-width: 1200px;
   height: 80px;
   text-align: center;
   overflow: hidden;
 }
-footer p {
+.index footer p {
   margin-top: 40px;
 }
 
 /***      popup       ***/
 .popup {
+  /***    clearfix      ***/
+}
+.popup main {
   width: 100%;
   height: 376px;
 }
@@ -384,16 +382,14 @@ footer p {
   padding-top: 0px;
   margin-left: 0px;
   text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
 }
 .popup li {
   display: inline-block;
 }
-.popup p {
-  display: inline-block;
-  width: 50%;
-}
 .popup .popupImg {
-  display: inline-block;
+  float: left;
 }
 .popup #mainImg1,
 .popup #mainImg2,
@@ -406,4 +402,16 @@ footer p {
 .popup #mainImg3.on,
 .popup #mainImg4.on {
   display: block;
+}
+.popup .clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}
+.popup .serectImg {
+  width: 440px;
+  display: inline-block;
+}
+.popup .serectImg li {
+  margin-left: 5px;
 }

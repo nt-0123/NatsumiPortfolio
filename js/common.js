@@ -39,3 +39,11 @@ $content.each(function(i){
 	});
 });
 
+
+
+// スクロールストップ処理
+function scrollStop() {$(window).queue([]).stop();}
+
+// マウスでスクロールした時に実行
+if (window.addEventListener) window.addEventListener('DOMMouseScroll', scrollStop, false);
+window.onmousewheel = document.onmousewheel = scrollStop;

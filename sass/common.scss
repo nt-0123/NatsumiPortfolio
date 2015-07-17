@@ -402,6 +402,8 @@ main nav {
 	}
 }
 
+/***      footer       ***/
+
 footer {
 	background-color: #ffb100 ;
 	top: 8000px ;
@@ -410,5 +412,48 @@ footer {
 	overflow: hidden ;
 	p {
 		margin-top: 40px ;
+	}
+}
+
+
+/***      popup       ***/
+
+.popup {
+	width: 100% ;
+	height: 376px ;
+	
+	header {
+		background: none ;
+		height: 50px ; ;
+	}
+	
+	h1 {
+		padding-top: 0px ;
+		margin-left: 0px ;
+		text-align: center ;
+}
+	
+	li {
+		display: inline-block ;
+	}
+	
+	p {
+		display: inline-block ;
+		width: 50% ;
+	}
+	
+	.popupImg {
+		display: inline-block ;
+	}
+	
+	#mainImg1,
+	#mainImg2,
+	#mainImg3,
+	#mainImg4 {
+		display: none ;
+		
+		&.on {
+			display: block ;
+		}
 	}
 }

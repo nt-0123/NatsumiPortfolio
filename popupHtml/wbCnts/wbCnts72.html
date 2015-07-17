@@ -3,18 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>WebContents</title>
+		<link rel="stylesheet" href="/css/import.css">
 	</head>
-	<body>
+	<body class="popup">
 		<header>
 			<h1>72's&nbsp;portfolio</h1>
 		</header>
 		<main>
 			<section>
-				<ul>
-					<li><img src="/img/popup/popupY_72Top.png" alt="72'sポートフォリオのトップ"></li>
-					<li><img src="/img/popup/popupY_72About.png" alt="自己紹介のページ"></li>
-					<li><img src="/img/popup/popupImg_72s.png" alt="作品ページ"></li>
-					<li><img src="/img/popup/popupY_72Contact.png" alt="コンタクトページ"></li>
+				<ul class="popupImg">
+					<li id="mainImg1"><img src="/img/popup/popupY_72Top.png" alt="72'sポートフォリオのトップ"></li>
+					<li id="mainImg2"><img src="/img/popup/popupY_72About.png" alt="自己紹介のページ"></li>
+					<li id="mainImg3"><img src="/img/popup/popupImg_72s.png" alt="作品ページ"></li>
+					<li id="mainImg4"><img src="/img/popup/popupY_72Contact.png" alt="コンタクトページ"></li>
 				</ul>
 				<p>ポートフォリオサイトです。
 				<br>
@@ -22,13 +23,18 @@
 				<br>
 				黒縁のメガネが好きなので、使っています。
 				</p>
-					<ul>
-						<li><a href=""><img src="/img/serect/web/content11.png"></a></li>
-						<li><a href=""><img src="/img/serect/web/content11A.png"></a></li>
-						<li><a href=""><img src="/img/serect/web/content11W.png"></a></li>
-						<li><a href=""><img src="/img/serect/web/content11C.png"></a></li>
+				<ul class="tab content_popupImg">
+					<li><img src="/img/serect/web/content11.png" alt="72'sポートフォリオのトップ72'sポートフォリオのトップ" width="100" height="100"></li>
+					<li><img src="/img/serect/web/content11A.png" alt="自己紹介のページ" width="100" height="100"></li>
+					<li><img src="/img/serect/web/content11W.png" alt="作品ページ" width="100" height="100"></li>
+					<li><img src="/img/serect/web/content11C.png" alt="コンタクトページ" width="100" height="100"></li>
 					</ul>
 			</section>
 		</main>
+		<script type="text/javascript" src="/js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.easing.1.3.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.tab.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.dataExtend.min.js"></script>
+		<script type="text/javascript" src="/js/common.js"></script>
 	</body>
 </html>

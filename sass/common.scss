@@ -297,27 +297,23 @@ h2 {
 		}
 
 		.contsTg {
-			display: inline-block ;
 			margin-top: 5% ;
-			margin-left: 30% ;
-			 li {
+			text-align: center ;
+			li {
+				padding: 0.5em 0.2em;
 				width: 100px ;
-				height: 27px ;
-				background-color: #c3e2fe ;
-				text-align: center ;
-				border-radius: 5px ;
-				margin-left: 10px ;
-				margin-right: 10px ;
-				 overflow: hidden ;
-			}
-			 li {
-				font-size: 24px ;
-				color: #000000 ;
+				background-color: #fee16c;
+				border-radius: 2px ;
+				margin-left: 5px ;
+				margin-right: 5px ;
+				overflow: hidden ;
+
+				font-size: 18px ;
+				color: #6f4026;
 				display: inline-block ;
-				text-align: center ;
-				padding-top: 10px ;
 				&.on {
-					background-color: #73a5f5 ;
+					background-color: #f5b565;
+					color: #fff ;
 				}
 			}
 		}

@@ -322,9 +322,8 @@ h2 {
 }
 
 /***      popup       ***/
-.popup {
-  /***    clearfix      ***/
-}
+
+
 .popup header {
   background: none;
   height: 50px;
@@ -354,6 +353,9 @@ h2 {
 .popup #mainImg4.on {
   display: block;
 }
+
+	/***    clearfix      ***/
+
 .popup .clearfix {
   content: "";
   clear: both;

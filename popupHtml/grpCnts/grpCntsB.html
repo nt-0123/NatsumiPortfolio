@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Game</title>
-		<link rel="stylesheet" href="/css/common.css">
+		<link rel="stylesheet" href="../../css/common.css">
 	</head>
 	<body class="popup">
 		<header>
@@ -11,7 +11,12 @@
 		</header>
 		<main>
 			<section>
-				<img class="popupImg" src="/img/popup/popupImg_DragonF.png" alt="バトルっこ動物" width="330" height="466">
+				<ul class="popupImg">
+					<li id="mainImg1"><img class="popupImg" src="../../img/popup/popupImgY_battleTop.png" alt="バトルっこ動物トップ" width="330" height="466"></li>
+					<li id="mainImg2"><img class="popupImg" src="../../img/popup/popupImgY_battleS.png" alt="カードのセレクト画面" width="330" height="466"></li>
+					<li id="mainImg3"><img class="popupImg" src="../../img/popup/popupImgY_battleR.png" alt="バトル画面" width="330" height="466"></li>
+					<li id="mainImg4"><img class="popupImg" src="../../img/popup/popupImgY_battleC.png" alt="キャラクター" width="330" height="466"></li>
+				</ul>
 				<p>共同制作で作成中のゲームです。
 				<br>
 				カードバトルゲームになっています。
@@ -19,9 +24,17 @@
 				その中で私はキャラクターやカンプなどのデザインを担当しています。
 				</p>
 				<ul class="serectImg tab content_popupImg">
-					<li><img src="/img/serect/group/content23.png" width="100" height="100"></li>
+					<li><img src="../../img/serect/group/battleTop.png" width="100" height="100" alt="バトルっこ動物トップ"></li>
+					<li><img src="../../img/serect/group/battleSerect.png" width="100" height="100" alt="カードのセレクト画面"></li>
+					<li><img src="../../img/serect/group/batteleRound.png" width="100" height="100" alt="バトル画面"></li>
+					<li><img src="../../img/serect/group/battleChara.png" width="100" height="100" alt="キャラクター"></li>
 				</ul>
 			</section>
 		</main>
+		<script type="text/javascript" src="../../js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.easing.1.3.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.tab.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.dataExtend.min.js"></script>
+		<script type="text/javascript" src="../../js/common.js"></script>
 	</body>
 </html>

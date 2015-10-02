@@ -88,7 +88,7 @@ h2 {
 			height: 100px ;
 			display: inline-block ;
 			margin-top: 10px ;
-			margin-left: 10px ;
+			margin-left: 30px ;
 			position: absolute ;
 		}
 
@@ -281,6 +281,10 @@ h2 {
 			&.on {
 				display: block ;
 			}
+			ul {
+			width: 500px ;
+			}
+			
 			li {
 				margin-top: 20px ;
 				margin-left: 10px ;
@@ -396,6 +400,7 @@ h2 {
 	
 	.popupImg {
 		float: left ;
+		margin-right: 10px ;
 	}
 	
 	#mainImg1,

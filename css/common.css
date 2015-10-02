@@ -81,7 +81,7 @@ h2 {
   height: 100px;
   display: inline-block;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 30px;
   position: absolute;
 }
 .index main nav .nav {
@@ -244,6 +244,11 @@ h2 {
 .index .prsnl #anlgConts.on {
   display: block;
 }
+.index .prsnl #wbConts ul,
+.index .prsnl #grphConts ul,
+.index .prsnl #anlgConts ul {
+  width: 500px;
+}
 .index .prsnl #wbConts li,
 .index .prsnl #grphConts li,
 .index .prsnl #anlgConts li {
@@ -322,8 +327,9 @@ h2 {
 }
 
 /***      popup       ***/
-
-
+.popup {
+  /***    clearfix      ***/
+}
 .popup header {
   background: none;
   height: 50px;
@@ -340,6 +346,7 @@ h2 {
 }
 .popup .popupImg {
   float: left;
+  margin-right: 10px;
 }
 .popup #mainImg1,
 .popup #mainImg2,
@@ -353,9 +360,6 @@ h2 {
 .popup #mainImg4.on {
   display: block;
 }
-
-	/***    clearfix      ***/
-
 .popup .clearfix {
   content: "";
   clear: both;

@@ -1,7 +1,9 @@
 
-var $colorbox = $(".colorbox");
-if($colorbox.size() > 0) {
-	$colorbox.colorbox({iframe:true, width:"80%", height:"80%"});
+var $colorboxHTML = $(".colorbox[href*=html]");
+var $colorboxIMG = $(".colorbox[href*=png],.colorbox[href*=jpg]");
+if($colorboxHTML.size() > 0 || $colorboxIMG.size() > 0) {
+	$colorboxHTML.colorbox({iframe:true, width:"80%", height:"80%"});
+	$colorboxIMG.colorbox();
 }
 
 $('.tab').dataExtend('tab');

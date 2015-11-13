@@ -259,12 +259,12 @@ h2 {
 .index .prsnl #wbConts a,
 .index .prsnl #grphConts a,
 .index .prsnl #anlgConts a {
-  opacity: 0.8;
+  opacity: 1;
 }
 .index .prsnl #wbConts a:hover,
 .index .prsnl #grphConts a:hover,
 .index .prsnl #anlgConts a:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 .index .grp {
   background-image: url('../img/background/group_bg.png?1435292537');
@@ -286,10 +286,10 @@ h2 {
   margin-top: 100px;
 }
 .index .grp a {
-  opacity: 0.8;
+  opacity: 1;
 }
 .index .grp a:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 .index #contact {
   background-image: url('../img/background/contact_bg.png?1435292759');

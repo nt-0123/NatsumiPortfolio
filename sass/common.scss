@@ -77,96 +77,72 @@ h2 {
 	/***      nav     ***/
 
 	main nav {
-		z-index: 1 ;
-		position: fixed ;
 		top: 0 ;
 		left: 0 ;
-		.hbgnv {
-			text-indent: -9999px ;
-			background:  image-url("nav/hnbrgnv.png") ;
-			background-position: center ;
-			background-repeat: no-repeat ;
-			width: 100px ;
-			height: 100px ;
-			display: inline-block ;
-			margin-top: 10px ;
-			margin-left: 30px ;
-			position: absolute ;
+		position: fixed ;
+		z-index: 2 ;
 		}
 
-		.nav {
-			width: 500px ;
-			height: 800px ;
-			background-color: rgba(0, 0, 0, 0.43) ;
-			font-size: 40px ;
+		#nav {
+			width: 300px ;
+			height: 50p ;
 			font-family: 'Dancing Script', cursive;
-			top: 0 ;
-			display: none ;
-			top: 0 ;
-			&.on {
-				display: block ;
-			}
-
+			background-color: rgba(0, 0, 0, 0.43) ;
 		}
 
 		.nvHnbg {
-			padding-top: 12% ;
-			margin-left: 186px ;
-		}
-
-		.nvHnbg li {
-			margin-top: 40px ;
-		}
-
-
-		.nvHnbg a {
-			color: #ffffff ;
-			font-size: 40px ;
-		}
-
-		a:hover {
-			color: #d1ebf5 ;
-		}
-
-		.sns li {
+			padding-top: 10px ;
+			padding-bottom: 10px ;
 			display: inline-block ;
-			margin-top: 80px ;
-			overflow: hidden ;
+
+			li {
+				display: inline-block ;
+				margin-left: 10px ;
+			}
+			
+			a {
+				color: #ffffff ;
+				font-size: 20px ;
+			}
+
+			a:hover {
+				color: #d1ebf5 ;
+			}
 		}
 
-		.tw a{
-			width: 60px ;
-			height: 51px ;
-			background-image:  image-url("icon/twIconHover.png") ;
-			background-repeat: no-repeat ;
-			text-indent: -9999px ;
+		.sns {
+			padding-top: 10px ;
+			padding-bottom: 10px ;
 			display: inline-block ;
-			background-position: center ;
-			margin-left: 156px ;
-			margin-top: 1px ;
-		}
+			margin-left: 10px ;
+			
+			li {
+				display: inline-block ;
+				overflow: hidden ;
+			}
+			
+			.tw a{
+				width: 20px ;
+				height: 17px ;
+				background-image:  image-url("icon/twIconHover.png") ;
+				background-repeat: no-repeat ;
+				text-indent: -9999px ;
+				display: inline-block ;
+				background-position: center ;
+				margin-top: 1px ;
+			}
 
-		.fb a {
-			width: 60px ;
-			height: 60px ;
-			background:  image-url("icon/fbIconHover.png") ;
-			background-repeat: no-repeat ;
-			text-indent: -9999px ;
-			display: inline-block ;
-			background-position: center ;
-			margin-left: 80px ;
+			.fb a {
+				width: 20px ;
+				height: 20px ;
+				background:  image-url("icon/fbIconHover.png") ;
+				background-repeat: no-repeat ;
+				text-indent: -9999px ;
+				display: inline-block ;
+				background-position: center ;
+				margin-left: 10px ;
+			}
 		}
-
-		.tw a:hover {
-			background-image:  image-url("icon/twIconHover2.png") ;
-			background-repeat: no-repeat ;
-		}
-
-		.fb a:hover {
-			background-image:  image-url("icon/fbIconHover2.png") ;
-			background-repeat: no-repeat ;
-		}
-	}
 
 	/***     about    ***/
 
@@ -206,14 +182,14 @@ h2 {
 	/***     work     ***/
 
 	#work {
-		width: 1730px ;
+		width: 1700px ;
 		height: 1600px ;
 		overflow: hidden ;
 		position: absolute;
 		margin: 0;
 		top: 4000px;
 		left: 50%;
-		margin-left: -865px;
+		margin-left: -825px;
 
 		h2 {
 			display: inline-block ;
@@ -232,7 +208,7 @@ h2 {
 	.prsnl {
 		background-image:  image-url("background/work_bg.png") ;
 		background-repeat: no-repeat ;
-		margin-left: 40% ;
+		margin-left: 640px ;
 		width: 1042px ;
 		height: 715px ;
 		overflow: hidden;
@@ -255,18 +231,18 @@ h2 {
 			li {
 				padding: 0.5em 0.2em;
 				width: 100px ;
-				background-color: #fee16c;
+				background-color: #ffcb3f ;
 				border-radius: 2px ;
 				margin-left: 5px ;
 				margin-right: 5px ;
 				overflow: hidden ;
-
 				font-size: 18px ;
-				color: #6f4026;
+				color: #ffffff ;
 				display: inline-block ;
+				cursor: pointer ;
 				&.on {
-					background-color: #f5b565;
-					color: #fff ;
+					background-color: #fcffd2 ;
+					color: #000000 ;
 				}
 			}
 		}
@@ -283,18 +259,17 @@ h2 {
 				display: block ;
 			}
 			ul {
-			width: 500px ;
+				width: 600px ;
+				margin-left: -9px ;
+				margin-top: 10px ;
 			}
 			
 			li {
-				margin-top: 20px ;
-				margin-left: 10px ;
+				margin-top: 10px ;
+				margin-left: 5px ;
 				margin-right: 5px ;
 			}
-
-			a {
-				opacity: 1 ;
-			}
+			
 			a:hover {
 				opacity: 0.8 ;
 			}
@@ -317,26 +292,94 @@ h2 {
 			padding-top: 8% ;
 			font-family: 'Dancing Script', cursive;
 		}
-
+		
 		li {
 			display: inline-block ;
-			margin-left: 38% ;
-			margin-top: 100px ;
-		}
-
-		a {
-			opacity: 1 ;
+			margin-top: 30px ;
 		}
 
 		a:hover {
 			opacity: 0.8 ;
 		}
+		
+		h4 {
+			margin-left: 40% ;
+			color: #ffffff ;
+			margin-top: 2em ;
+			margin-bottom: 1em ;
+		}
+		
+		.contsTg {
+			text-align: center ;
+			li {
+				padding: 0.5em 0.2em;
+				width: 100px ;
+				background-color: #88de95 ;
+				border-radius: 2px ;
+				margin-left: 5px ;
+				margin-right: 5px ;
+				margin-top: 70px ;
+				overflow: hidden ;
+				font-size: 18px ;
+				color: #ffffff ;
+				display: inline-block ;
+				cursor: pointer ;
+				&.on {
+					background-color: #c4ffcd ;
+					color: #000000 ;
+				}
+			}
+		}
+		
+		#portfolioConts,
+		#gmConts,
+		#grpGameConts {
+			display: none ;
+
+			&.on {
+				display: block ;
+			}
+			
+			.portfolio_content {
+				margin-left: 28% ;
+				width: 450px ;
+				
+				li {
+					margin-left: 5px ;
+					margin-right: 5px ;
+					margin-top: 10px ;
+				}
+			}
+			
+			a:hover {
+				opacity: 0.8 ;
+			}
+			
+			p {
+				margin-left: 240px ;
+				margin-top: 1em ;
+				width: 380px ;
+				line-height: 1.5em ;
+				color: #ffffff ;
+			}
+		}
+
+		#gmConts,
+		#grpGameConts {
+			a {
+				margin-left: 40% ;
+				img {
+					margin-top: 1em ;
+				}
+			}
+		}
+		
 	}
 
 	/***     contact     ***/
 
 	#contact {
-		background-image:  image-url("background/contact_bg.png") ;
+		background-image: image-url("background/contact_bg.png") ;
 		background-repeat: no-repeat ;
 		position: absolute ;
 		left: 50% ;

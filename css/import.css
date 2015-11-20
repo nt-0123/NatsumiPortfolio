@@ -148,83 +148,62 @@ h2 {
   background-position: center bottom;
 }
 .index main nav {
-  z-index: 1;
-  position: fixed;
   top: 0;
   left: 0;
+  position: fixed;
+  z-index: 2;
 }
-.index main nav .hbgnv {
-  text-indent: -9999px;
-  background: url('../img/nav/hnbrgnv.png?1435897441');
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 30px;
-  position: absolute;
-}
-.index main nav .nav {
-  width: 500px;
-  height: 800px;
-  background-color: rgba(0, 0, 0, 0.43);
-  font-size: 40px;
+.index #nav {
+  width: 300px;
+  height: 50p;
   font-family: 'Dancing Script', cursive;
-  top: 0;
-  display: none;
-  top: 0;
+  background-color: rgba(0, 0, 0, 0.43);
 }
-.index main nav .nav.on {
-  display: block;
+.index .nvHnbg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
 }
-.index main nav .nvHnbg {
-  padding-top: 12%;
-  margin-left: 186px;
+.index .nvHnbg li {
+  display: inline-block;
+  margin-left: 10px;
 }
-.index main nav .nvHnbg li {
-  margin-top: 40px;
-}
-.index main nav .nvHnbg a {
+.index .nvHnbg a {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 20px;
 }
-.index main nav a:hover {
+.index .nvHnbg a:hover {
   color: #d1ebf5;
 }
-.index main nav .sns li {
+.index .sns {
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: inline-block;
-  margin-top: 80px;
+  margin-left: 10px;
+}
+.index .sns li {
+  display: inline-block;
   overflow: hidden;
 }
-.index main nav .tw a {
-  width: 60px;
-  height: 51px;
-  background-image: url('../img/icon/twIconHover.png?1435884885');
+.index .sns .tw a {
+  width: 20px;
+  height: 17px;
+  background-image: url('../img/icon/twIconHover.png?1447980520');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
   background-position: center;
-  margin-left: 156px;
   margin-top: 1px;
 }
-.index main nav .fb a {
-  width: 60px;
-  height: 60px;
-  background: url('../img/icon/fbIconHover.png?1435885083');
+.index .sns .fb a {
+  width: 20px;
+  height: 20px;
+  background: url('../img/icon/fbIconHover.png?1447980563');
   background-repeat: no-repeat;
   text-indent: -9999px;
   display: inline-block;
   background-position: center;
-  margin-left: 80px;
-}
-.index main nav .tw a:hover {
-  background-image: url('../img/icon/twIconHover2.png?1435885017');
-  background-repeat: no-repeat;
-}
-.index main nav .fb a:hover {
-  background-image: url('../img/icon/fbIconHover2.png?1435885062');
-  background-repeat: no-repeat;
+  margin-left: 10px;
 }
 .index #about {
   background-image: url('../img/background/about_bg.png?1435286858');
@@ -255,14 +234,14 @@ h2 {
   margin-top: 20px;
 }
 .index #work {
-  width: 1730px;
+  width: 1700px;
   height: 1600px;
   overflow: hidden;
   position: absolute;
   margin: 0;
   top: 4000px;
   left: 50%;
-  margin-left: -865px;
+  margin-left: -825px;
 }
 .index #work h2 {
   display: inline-block;
@@ -276,9 +255,9 @@ h2 {
   padding-top: 80px;
 }
 .index .prsnl {
-  background-image: url('../img/background/work_bg.png?1435292690');
+  background-image: url('../img/background/work_bg.png?1447400856');
   background-repeat: no-repeat;
-  margin-left: 40%;
+  margin-left: 640px;
   width: 1042px;
   height: 715px;
   overflow: hidden;
@@ -300,18 +279,19 @@ h2 {
 .index .prsnl .contsTg li {
   padding: 0.5em 0.2em;
   width: 100px;
-  background-color: #fee16c;
+  background-color: #ffcb3f;
   border-radius: 2px;
   margin-left: 5px;
   margin-right: 5px;
   overflow: hidden;
   font-size: 18px;
-  color: #6f4026;
+  color: #ffffff;
   display: inline-block;
+  cursor: pointer;
 }
 .index .prsnl .contsTg li.on {
-  background-color: #f5b565;
-  color: #fff;
+  background-color: #fcffd2;
+  color: #000000;
 }
 .index .prsnl #wbConts,
 .index .prsnl #grphConts,
@@ -327,19 +307,16 @@ h2 {
 .index .prsnl #wbConts ul,
 .index .prsnl #grphConts ul,
 .index .prsnl #anlgConts ul {
-  width: 500px;
+  width: 600px;
+  margin-left: -9px;
+  margin-top: 10px;
 }
 .index .prsnl #wbConts li,
 .index .prsnl #grphConts li,
 .index .prsnl #anlgConts li {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
   margin-right: 5px;
-}
-.index .prsnl #wbConts a,
-.index .prsnl #grphConts a,
-.index .prsnl #anlgConts a {
-  opacity: 1;
 }
 .index .prsnl #wbConts a:hover,
 .index .prsnl #grphConts a:hover,
@@ -347,7 +324,7 @@ h2 {
   opacity: 0.8;
 }
 .index .grp {
-  background-image: url('../img/background/group_bg.png?1435292537');
+  background-image: url('../img/background/group_bg.png?1447986944');
   background-repeat: no-repeat;
   overflow: hidden;
   width: 829px;
@@ -363,14 +340,82 @@ h2 {
 }
 .index .grp li {
   display: inline-block;
-  margin-left: 38%;
-  margin-top: 100px;
-}
-.index .grp a {
-  opacity: 1;
+  margin-top: 30px;
 }
 .index .grp a:hover {
   opacity: 0.8;
+}
+.index .grp h4 {
+  margin-left: 40%;
+  color: #ffffff;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.index .grp .contsTg {
+  text-align: center;
+}
+.index .grp .contsTg li {
+  padding: 0.5em 0.2em;
+  width: 100px;
+  background-color: #88de95;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 70px;
+  overflow: hidden;
+  font-size: 18px;
+  color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+}
+.index .grp .contsTg li.on {
+  background-color: #c4ffcd;
+  color: #000000;
+}
+.index .grp #portfolioConts,
+.index .grp #gmConts,
+.index .grp #grpGameConts {
+  display: none;
+}
+.index .grp #portfolioConts.on,
+.index .grp #gmConts.on,
+.index .grp #grpGameConts.on {
+  display: block;
+}
+.index .grp #portfolioConts .portfolio_content,
+.index .grp #gmConts .portfolio_content,
+.index .grp #grpGameConts .portfolio_content {
+  margin-left: 28%;
+  width: 450px;
+}
+.index .grp #portfolioConts .portfolio_content li,
+.index .grp #gmConts .portfolio_content li,
+.index .grp #grpGameConts .portfolio_content li {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.index .grp #portfolioConts a:hover,
+.index .grp #gmConts a:hover,
+.index .grp #grpGameConts a:hover {
+  opacity: 0.8;
+}
+.index .grp #portfolioConts p,
+.index .grp #gmConts p,
+.index .grp #grpGameConts p {
+  margin-left: 240px;
+  margin-top: 1em;
+  width: 380px;
+  line-height: 1.5em;
+  color: #ffffff;
+}
+.index .grp #gmConts a,
+.index .grp #grpGameConts a {
+  margin-left: 40%;
+}
+.index .grp #gmConts a img,
+.index .grp #grpGameConts a img {
+  margin-top: 1em;
 }
 .index #contact {
   background-image: url('../img/background/contact_bg.png?1435292759');

@@ -425,61 +425,9 @@ h2 {
 
 }
 
-/***      popup       ***/
-
-.popup {
-
-	
-	header {
-		background: none ;
-		height: 50px ;
-	}
-	
-	h1 {
-		padding-top: 0px ;
-		margin-left: 0px ;
-		text-align: center ;
-		font-family: 'Dancing Script', cursive ;
-		font-size: 30px ;
-}
-	
-	li {
-		display: inline-block ;
-	}
-	
-	
-	
-	.popupImg {
-		float: left ;
-		margin-right: 10px ;
-		margin-left: 20px ;
-	}
-	
-	#mainImg1,
-	#mainImg2,
-	#mainImg3,
-	#mainImg4 {
-		display: none ;
-		
-		&.on {
-			display: block ;
-		}
-	}
-	
 	/***    clearfix      ***/
 	.clearfix {
 		content: "" ;
 		clear: both ;
 		display: block ;
 	}
-	
-	.serectImg {
-		width: 440px ;
-		display: inline-block ;
-		
-		li {
-			margin-left: 5px ;
-		}
-	}
-	
-}

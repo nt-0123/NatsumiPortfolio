@@ -458,50 +458,9 @@ h2 {
   margin-top: 40px;
 }
 
-/***      popup       ***/
-.popup {
-  /***    clearfix      ***/
-}
-.popup header {
-  background: none;
-  height: 50px;
-}
-.popup h1 {
-  padding-top: 0px;
-  margin-left: 0px;
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 30px;
-}
-.popup li {
-  display: inline-block;
-}
-.popup .popupImg {
-  float: left;
-  margin-right: 10px;
-  margin-left: 20px;
-}
-.popup #mainImg1,
-.popup #mainImg2,
-.popup #mainImg3,
-.popup #mainImg4 {
-  display: none;
-}
-.popup #mainImg1.on,
-.popup #mainImg2.on,
-.popup #mainImg3.on,
-.popup #mainImg4.on {
-  display: block;
-}
-.popup .clearfix {
+/***    clearfix      ***/
+.clearfix {
   content: "";
   clear: both;
   display: block;
-}
-.popup .serectImg {
-  width: 440px;
-  display: inline-block;
-}
-.popup .serectImg li {
-  margin-left: 5px;
 }

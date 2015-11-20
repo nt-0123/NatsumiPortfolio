@@ -230,7 +230,7 @@ h2 {
 			text-align: center ;
 			li {
 				padding: 0.5em 0.2em;
-				width: 100px ;
+				width: 90px ;
 				background-color: #ffcb3f ;
 				border-radius: 2px ;
 				margin-left: 5px ;
@@ -268,6 +268,10 @@ h2 {
 				margin-top: 10px ;
 				margin-left: 5px ;
 				margin-right: 5px ;
+			}
+			
+			a img {
+			display: block ;
 			}
 			
 			a:hover {
@@ -313,7 +317,7 @@ h2 {
 			text-align: center ;
 			li {
 				padding: 0.5em 0.2em;
-				width: 100px ;
+				width: 90px ;
 				background-color: #88de95 ;
 				border-radius: 2px ;
 				margin-left: 5px ;
@@ -349,6 +353,10 @@ h2 {
 					margin-right: 5px ;
 					margin-top: 10px ;
 				}
+			}
+			
+			a img {
+				display: block ;
 			}
 			
 			a:hover {

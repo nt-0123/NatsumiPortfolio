@@ -278,7 +278,7 @@ h2 {
 }
 .index .prsnl .contsTg li {
   padding: 0.5em 0.2em;
-  width: 100px;
+  width: 90px;
   background-color: #ffcb3f;
   border-radius: 2px;
   margin-left: 5px;
@@ -318,6 +318,11 @@ h2 {
   margin-left: 5px;
   margin-right: 5px;
 }
+.index .prsnl #wbConts a img,
+.index .prsnl #grphConts a img,
+.index .prsnl #anlgConts a img {
+  display: block;
+}
 .index .prsnl #wbConts a:hover,
 .index .prsnl #grphConts a:hover,
 .index .prsnl #anlgConts a:hover {
@@ -356,7 +361,7 @@ h2 {
 }
 .index .grp .contsTg li {
   padding: 0.5em 0.2em;
-  width: 100px;
+  width: 90px;
   background-color: #88de95;
   border-radius: 2px;
   margin-left: 5px;
@@ -394,6 +399,11 @@ h2 {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
+}
+.index .grp #portfolioConts a img,
+.index .grp #gmConts a img,
+.index .grp #grpGameConts a img {
+  display: block;
 }
 .index .grp #portfolioConts a:hover,
 .index .grp #gmConts a:hover,

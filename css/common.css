@@ -321,9 +321,9 @@ h2 {
   margin-right: 5px;
   margin-top: 10px;
 }
-.index .grp #portfolioConts a img,
-.index .grp #gmConts a img,
-.index .grp #grpGameConts a img {
+.index .grp #portfolioConts a,
+.index .grp #gmConts a,
+.index .grp #grpGameConts a {
   display: block;
 }
 .index .grp #portfolioConts a:hover,
@@ -340,12 +340,9 @@ h2 {
   line-height: 1.5em;
   color: #ffffff;
 }
-.index .grp #gmConts a,
-.index .grp #grpGameConts a {
+.index .grp #gmConts img,
+.index .grp #grpGameConts img {
   margin-left: 40%;
-}
-.index .grp #gmConts a img,
-.index .grp #grpGameConts a img {
   margin-top: 1em;
 }
 .index #contact {

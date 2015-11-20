@@ -291,7 +291,7 @@ h2 {
 }
 .index .prsnl .contsTg li.on {
   background-color: #fcffd2;
-  color: #000000;
+  color: #333333;
 }
 .index .prsnl #wbConts,
 .index .prsnl #grphConts,
@@ -375,7 +375,7 @@ h2 {
 }
 .index .grp .contsTg li.on {
   background-color: #c4ffcd;
-  color: #000000;
+  color: #333333;
 }
 .index .grp #portfolioConts,
 .index .grp #gmConts,

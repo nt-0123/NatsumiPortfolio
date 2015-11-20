@@ -245,14 +245,14 @@ h2 {
 }
 .index #work h2 {
   display: inline-block;
-  margin-left: 40%;
-  margin-bottom: -10%;
+  margin-left: 30%;
   background-image: url('../img/background/work2_bg.png?1436503756');
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;
   text-align: center;
   padding-top: 80px;
+  position: absolute;
 }
 .index .prsnl {
   background-image: url('../img/background/work_bg.png?1447400856');
